@@ -16,7 +16,7 @@ RUN npm i
 COPY . .
 
 #Run the tests
-RUN npm run test
+RUN npm run jest
 
 
 # --------------------- Stage-2: Final Stage -------------------------
