@@ -12,11 +12,11 @@ COPY package*.json ./
 #install the dependencies
 RUN npm i
 
-#Run the tests
-RUN npm run test
-
 #copy the remaining files
 COPY . .
+
+#Run the tests
+RUN npm run test
 
 
 # --------------------- Stage-2: Final Stage -------------------------
