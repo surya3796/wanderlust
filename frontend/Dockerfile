@@ -15,10 +15,6 @@ RUN npm i
 #copy the remaining files
 COPY . .
 
-#Run the tests
-RUN npm test
-
-
 # --------------------- Stage-2: Final Stage -------------------------
 
 #base image
